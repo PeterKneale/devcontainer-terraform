@@ -1,0 +1,8 @@
+build*/*
+secrets
+hushhush
+*.pem
+*.key
+*.env
+.terraform
+.vagrant

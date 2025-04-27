@@ -1,5 +1,3 @@
-TERRAFORM_DOCS_VERSION?=0.19.0
-
 terraform-docs/install:
 	@mkdir -p /tmp/download /tmp/extract \
 	&& wget https://github.com/terraform-docs/terraform-docs/releases/download/v$(TERRAFORM_DOCS_VERSION)/terraform-docs-v$(TERRAFORM_DOCS_VERSION)-linux-amd64.tar.gz -O /tmp/download/terraform-docs-$(TERRAFORM_DOCS_VERSION)-linux-amd64.tar.gz --quiet --no-check-certificate \

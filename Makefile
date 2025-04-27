@@ -1,4 +1,7 @@
 export WORKSPACE=$(shell pwd)
+
+include $(WORKSPACE)/versions.env
+
 .PHONY: $(PHONY_TARGETS)
 
 default:
